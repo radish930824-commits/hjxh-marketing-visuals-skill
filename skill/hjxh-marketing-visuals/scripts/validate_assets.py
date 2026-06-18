@@ -6,7 +6,7 @@ from collections import Counter
 from pathlib import Path
 
 
-EXPECTED_COUNTS = {"logo": 6, "ip": 6, "product": 4, "font": 10}
+EXPECTED_COUNTS = {"logo": 6, "ip": 6, "product": 5, "font": 10}
 ALLOWED_EXTENSIONS = {
     "logo": {".png"},
     "ip": {".png"},
@@ -62,4 +62,3 @@ if __name__ == "__main__":
     except (OSError, ValueError, json.JSONDecodeError) as exc:
         print(f"Asset validation failed: {exc}", file=sys.stderr)
         raise SystemExit(1)
-
