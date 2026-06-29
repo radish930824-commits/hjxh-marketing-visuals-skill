@@ -16,6 +16,7 @@
   {"alias":"product-egg-tart","category":"product","source":"皇家小虎主产品摄影图/蛋挞.png","path":"assets/products/蛋挞.png","purpose":"蛋挞产品真实摄影参考"},
   {"alias":"product-cheese-bake","category":"product","source":"皇家小虎主产品摄影图/芝士焗.png","path":"assets/products/芝士焗.png","purpose":"芝士焗产品真实摄影参考"},
   {"alias":"product-fries","category":"product","source":"皇家小虎主产品摄影图/薯条.png","path":"assets/products/薯条.png","purpose":"薯条产品真实摄影参考"},
+  {"alias":"product-hand-grabbed-pancake","category":"product","source":"皇家小虎主产品摄影图/手抓饼.png","path":"assets/products/手抓饼.png","purpose":"手抓饼产品真实摄影参考"},
   {"alias":"font-zh-w3-auxiliary","category":"font","source":"皇家小虎品牌标准字体/40华康圆体W3.TTF","path":"assets/fonts/40华康圆体W3.TTF","purpose":"中文轻量辅助文字"},
   {"alias":"font-zh-w5-body","category":"font","source":"皇家小虎品牌标准字体/41华康圆体W5.TTF","path":"assets/fonts/41华康圆体W5.TTF","purpose":"中文普通正文"},
   {"alias":"font-zh-w7-body-emphasis","category":"font","source":"皇家小虎品牌标准字体/42华康圆体W7.TTF","path":"assets/fonts/42华康圆体W7.TTF","purpose":"中文重点正文"},
