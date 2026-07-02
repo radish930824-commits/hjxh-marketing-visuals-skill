@@ -46,7 +46,9 @@ MUST 保持 Logo 原始比例、完整结构、颜色和透明度。MUST NOT 重
 | 英文正文 | `font-en-gotham-rounded-book` |
 | 英文辅助文字 | `font-en-gotham-rounded-light` |
 
-不得使用相似字体替换，不得软件模拟加粗、倾斜或拉伸。
+MUST 强制按文字类型用字体：中文必须使用华康圆体系列资产（`font-zh-*`）；英文和数字必须使用 GOTHAMRND 系列资产（`font-en-gotham-rounded-*`）。混排文本必须按字符类型分别套用对应字体。
+
+不得使用相似字体替换，不得使用系统默认字体，不得软件模拟加粗、倾斜或拉伸。
 
 ## IP
 

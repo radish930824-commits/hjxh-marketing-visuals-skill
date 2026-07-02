@@ -27,6 +27,7 @@ description: Use when a request mentions 皇家小虎 or HJXH and involves creat
 - MUST 直接使用打包的 Logo；Logo 缺失时停止制作。
 - MUST NOT 重绘、仿制、变形、裁切或生成 Logo。
 - MUST 使用准确品牌色、指定字体和真实产品素材。
+- MUST 强制按文字类型用字体：中文必须使用华康圆体系列；英文和数字必须使用 GOTHAMRND 系列。
 - MUST 在交付任何成品前执行规范审核。
 - 任一 MUST 或 MUST NOT 违规，审核结论必须为“不通过”。
 - Logo、品牌色、字体、IP 身份或新动作、产品事实、促销价格与条款的修改必须先获得用户确认。
@@ -45,4 +46,3 @@ description: Use when a request mentions 皇家小虎 or HJXH and involves creat
 - ImageGen：图片、制作说明与审核结果。
 - 方案任务：构图、素材选择、文案层级、尺寸、工具建议和制作提示词。
 - 审核任务：结构化审核报告；高风险修改仅在确认后执行。
-
