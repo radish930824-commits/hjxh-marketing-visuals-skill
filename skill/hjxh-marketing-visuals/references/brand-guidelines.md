@@ -16,7 +16,7 @@
 | `brand.red` | `#D93924` | 小面积促销与关键强调 |
 | `neutral.white` | `#FFFFFF` | 留白与浅色背景 |
 
-MUST 使用准确色值。小虎红不得替代小虎黄成为大面积主背景，除非用户明确批准。
+MUST 只能使用上表 4 个皇家小虎品牌色作为设计色板。新增背景、文字、装饰、描边、阴影、图标、形状和高亮不得使用任何品牌色以外的颜色；真实产品图、Logo 和 IP 原始素材自带颜色不得被改色。小虎红不得替代小虎黄成为大面积主背景。
 
 ## Logo
 
@@ -40,13 +40,12 @@ MUST 保持 Logo 原始比例、完整结构、颜色和透明度。MUST NOT 重
 | 中文重点正文 | `font-zh-w7-body-emphasis` |
 | 中文普通正文 | `font-zh-w5-body` |
 | 中文辅助文字 | `font-zh-w3-auxiliary` |
-| 中文超重标题 | `font-zh-w12-display-heavy` |
 | 英文主标题 | `font-en-gotham-rounded-bold` |
 | 英文副标题与强调 | `font-en-gotham-rounded-medium` |
 | 英文正文 | `font-en-gotham-rounded-book` |
 | 英文辅助文字 | `font-en-gotham-rounded-light` |
 
-MUST 强制按文字类型用字体：中文必须使用华康圆体系列资产（`font-zh-*`）；英文和数字必须使用 GOTHAMRND 系列资产（`font-en-gotham-rounded-*`）。混排文本必须按字符类型分别套用对应字体。
+MUST 强制按文字类型用字体：中文必须使用华康圆体系列资产（`font-zh-*`），中文标题最粗只能使用 `font-zh-w9-heading-primary`（华康圆体 W9）；英文和数字必须使用 GOTHAMRND 系列资产（`font-en-gotham-rounded-*`），禁止对英文或数字使用华康圆体。混排文本必须按字符类型分别套用对应字体。
 
 不得使用相似字体替换，不得使用系统默认字体，不得软件模拟加粗、倾斜或拉伸。
 

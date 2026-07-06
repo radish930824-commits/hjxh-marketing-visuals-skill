@@ -26,8 +26,9 @@ description: Use when a request mentions 皇家小虎 or HJXH and involves creat
 
 - MUST 直接使用打包的 Logo；Logo 缺失时停止制作。
 - MUST NOT 重绘、仿制、变形、裁切或生成 Logo。
-- MUST 使用准确品牌色、指定字体和真实产品素材。
-- MUST 强制按文字类型用字体：中文必须使用华康圆体系列；英文和数字必须使用 GOTHAMRND 系列。
+- MUST 只能使用皇家小虎品牌色：小虎黄 `#FFCC00`、小虎咖 `#632C16`、小虎红 `#D93924`、白色 `#FFFFFF`；禁止使用品牌色以外的颜色。
+- MUST 使用指定字体和真实产品素材。
+- MUST 强制按文字类型用字体：中文必须使用华康圆体系列，中文标题最粗只能使用华康圆体 W9；英文和数字必须使用 GOTHAMRND 系列，禁止对英文或数字使用华康圆体。
 - MUST 在交付任何成品前执行规范审核。
 - 任一 MUST 或 MUST NOT 违规，审核结论必须为“不通过”。
 - Logo、品牌色、字体、IP 身份或新动作、产品事实、促销价格与条款的修改必须先获得用户确认。

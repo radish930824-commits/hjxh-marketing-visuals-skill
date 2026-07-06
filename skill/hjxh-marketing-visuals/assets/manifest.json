@@ -22,7 +22,6 @@
   {"alias":"font-zh-w7-body-emphasis","category":"font","source":"皇家小虎品牌标准字体/42华康圆体W7.TTF","path":"assets/fonts/42华康圆体W7.TTF","purpose":"中文重点正文"},
   {"alias":"font-zh-w8-heading-secondary","category":"font","source":"皇家小虎品牌标准字体/43华康圆体W8.TTF","path":"assets/fonts/43华康圆体W8.TTF","purpose":"中文副标题"},
   {"alias":"font-zh-w9-heading-primary","category":"font","source":"皇家小虎品牌标准字体/44华康圆体W9.TTF","path":"assets/fonts/44华康圆体W9.TTF","purpose":"中文主标题"},
-  {"alias":"font-zh-w12-display-heavy","category":"font","source":"皇家小虎品牌标准字体/45华康圆体W12.TTF","path":"assets/fonts/45华康圆体W12.TTF","purpose":"中文超重强调标题"},
   {"alias":"font-en-gotham-rounded-bold","category":"font","source":"皇家小虎品牌标准字体/GOTHAMRND-BOLD.OTF","path":"assets/fonts/GOTHAMRND-BOLD.OTF","purpose":"英文主标题"},
   {"alias":"font-en-gotham-rounded-book","category":"font","source":"皇家小虎品牌标准字体/GOTHAMRND-BOOK.OTF","path":"assets/fonts/GOTHAMRND-BOOK.OTF","purpose":"英文正文"},
   {"alias":"font-en-gotham-rounded-light","category":"font","source":"皇家小虎品牌标准字体/GOTHAMRND-LIGHT.OTF","path":"assets/fonts/GOTHAMRND-LIGHT.OTF","purpose":"英文辅助文字"},
