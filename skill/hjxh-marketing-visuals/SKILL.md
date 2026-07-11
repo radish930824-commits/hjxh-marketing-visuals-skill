@@ -1,6 +1,6 @@
 ---
 name: hjxh-marketing-visuals
-description: Use when a request mentions 皇家小虎 or HJXH and involves creating, planning, auditing, or revising posters, social-media graphics, ecommerce promotional images, campaign graphics, or other marketing visuals.
+description: Use when a request mentions 皇家小虎 or HJXH and involves creating, planning, auditing, revising, approving, or converting posters, social-media graphics, ecommerce promotional images, campaign graphics, Canva editable canvases, HTML/PDF weekly reports, or other marketing visuals.
 ---
 
 # 皇家小虎营销视觉
@@ -11,16 +11,21 @@ description: Use when a request mentions 皇家小虎 or HJXH and involves creat
 
 1. 每次任务都读取 `references/brand-guidelines.md`。
 2. 制作成品或输出制作方案时，读取 `references/creation-workflow.md`。
-3. 审核或修改已有图片时，读取 `references/review-workflow.md` 和 `references/audit-report-template.md`。
-4. 渠道或尺寸缺失时，读取 `references/channel-sizes.md`，推荐 1-3 个尺寸并确认。
-5. 从 `assets/manifest.json` 选择素材，不得静默替换缺失资产。
+3. 制作 HTML/PDF 周报、周报模板、经营周报或工作周报时，读取 `references/weekly-report-template.md`；16:9 演示与大屏使用 `assets/templates/周报横屏版.html`，A4 打印与长文档使用 `assets/templates/周报竖屏版.html`。
+4. 审核或修改已有图片时，读取 `references/review-workflow.md` 和 `references/audit-report-template.md`。
+5. 涉及 Canva 可编辑画布、审批改图、按批准修改、导出图片时，读取 `references/canva-approval-workflow.md`。
+6. 渠道或尺寸缺失时，读取 `references/channel-sizes.md`，推荐 1-3 个尺寸并确认。
+7. 从 `assets/manifest.json` 选择素材，不得静默替换缺失资产。
 
 ## 任务分类
 
 - 制作营销图片成品
+- 制作 Canva 可编辑画布并导出图片
+- 制作 HTML/PDF 周报模板或成品
 - 输出详细制作方案
 - 审核已有营销图片
 - 审核并修改已有营销图片
+- 按严格审批流程修改营销图片
 
 ## 硬性边界
 
@@ -40,6 +45,7 @@ description: Use when a request mentions 皇家小虎 or HJXH and involves creat
 - 创意背景或新场景：优先 ImageGen。
 - 同时需要创意场景和准确品牌排版：组合使用 ImageGen 与 Canva。
 - ImageGen 绝不能用于生成或仿制 Logo。
+- 审批改图默认使用 Canva 承载可编辑画布，Codex 管理审核、批准项和修改说明。
 
 ## 交付
 
@@ -47,3 +53,5 @@ description: Use when a request mentions 皇家小虎 or HJXH and involves creat
 - ImageGen：图片、制作说明与审核结果。
 - 方案任务：构图、素材选择、文案层级、尺寸、工具建议和制作提示词。
 - 审核任务：结构化审核报告；高风险修改仅在确认后执行。
+- 审批改图任务：默认交付 Canva 可编辑画布、导出图片、审核/修改说明。
+- 周报任务：根据输出场景选择周报横屏版或周报竖屏版，交付脱敏模板或已填充 HTML/PDF 周报，并说明封面、页头、页尾是否符合固定排版逻辑。

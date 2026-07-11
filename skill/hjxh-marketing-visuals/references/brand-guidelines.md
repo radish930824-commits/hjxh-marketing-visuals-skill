@@ -28,6 +28,7 @@ MUST 只能使用上表 4 个皇家小虎品牌色作为设计色板。新增背
 | 黄色品牌条，完整品牌信息 | `logo-yellow-panel-with-tagline` |
 | 黄色背景头像 | `avatar-yellow-background` |
 | 默认头像、独立符号 | `avatar-transparent` |
+| 16:9 周报封面左下完整横版 Logo | `logo-weekly-report-cover-horizontal` |
 
 MUST 保持 Logo 原始比例、完整结构、颜色和透明度。MUST NOT 重绘、重新排字、裁切、旋转、拉伸、加描边、阴影、滤镜或覆盖图形。
 

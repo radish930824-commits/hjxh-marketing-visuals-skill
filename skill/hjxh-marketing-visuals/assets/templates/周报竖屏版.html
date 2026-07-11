@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{region_name}}{{week_label}}周报 | 皇家小虎</title>
+  <style>
+    @font-face {
+      font-family: "GothamRounded";
+      src: url("../fonts/GOTHAMRND-BOOK.OTF") format("opentype");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+      unicode-range: U+0000-00FF;
+    }
+    @font-face {
+      font-family: "GothamRounded";
+      src: url("../fonts/GOTHAMRND-MEDIUM.OTF") format("opentype");
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+      unicode-range: U+0000-00FF;
+    }
+    @font-face {
+      font-family: "GothamRounded";
+      src: url("../fonts/GOTHAMRND-BOLD.OTF") format("opentype");
+      font-weight: 900;
+      font-style: normal;
+      font-display: swap;
+      unicode-range: U+0000-00FF;
+    }
+    @font-face {
+      font-family: "HJXH";
+      src: url("../fonts/41华康圆体W5.TTF") format("truetype");
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "HJXH";
+      src: url("../fonts/42华康圆体W7.TTF") format("truetype");
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "HJXH";
+      src: url("../fonts/44华康圆体W9.TTF") format("truetype");
+      font-weight: 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    :root {
+      --brand-yellow: #FFCC00;
+      --brand-brown: #632C16;
+      --brand-red: #D93924;
+      --brand-white: #FFFFFF;
+    }
+
+    * { box-sizing: border-box; }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--brand-white);
+      color: var(--brand-brown);
+      font-family: "HJXH", sans-serif;
+      font-weight: 500;
+    }
+
+    .num,
+    .latin {
+      font-family: "GothamRounded", "HJXH", sans-serif;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      background: var(--brand-white);
+      color: var(--brand-brown);
+      page-break-after: always;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .page-inner {
+      flex: 1;
+      padding: 11mm 14mm 10mm;
+    }
+
+    .cover-page {
+      background: var(--brand-yellow);
+      min-height: 297mm;
+      height: 297mm;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20mm 18mm;
+    }
+
+    .cover-page::before {
+      content: "";
+      position: absolute;
+      inset: 12mm;
+      border: 2px solid var(--brand-brown);
+      border-radius: 18mm;
+      opacity: 0.22;
+    }
+
+    .cover-stack {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .cover-logo {
+      width: 66mm;
+      max-height: 66mm;
+      object-fit: contain;
+      margin: 0 auto 13mm;
+    }
+
+    .cover-week {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 7px 18px;
+      border-radius: 999px;
+      background: var(--brand-brown);
+      color: var(--brand-white);
+      font-size: 18px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      margin-bottom: 8mm;
+    }
+
+    .cover-region {
+      margin: 0;
+      font-size: 42px;
+      line-height: 1.18;
+      letter-spacing: 3px;
+      font-weight: 900;
+      color: var(--brand-brown);
+    }
+
+    .cover-title {
+      font-size: 32px;
+      line-height: 1.2;
+      font-weight: 900;
+      letter-spacing: 5px;
+      margin-top: 5mm;
+      color: var(--brand-brown);
+    }
+
+    .cover-line {
+      width: 42mm;
+      height: 3px;
+      border-radius: 999px;
+      background: var(--brand-red);
+      margin: 9mm auto 7mm;
+    }
+
+    .cover-date {
+      font-size: 22px;
+      font-weight: 900;
+      color: var(--brand-brown);
+      letter-spacing: 1px;
+    }
+
+    .cover-pills {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 8mm;
+    }
+
+    .cover-pill {
+      min-width: 28mm;
+      padding: 7px 14px;
+      border-radius: 999px;
+      background: var(--brand-yellow);
+      color: var(--brand-brown);
+      border: 2px solid var(--brand-brown);
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .page-header {
+      height: 16mm;
+      background: var(--brand-yellow);
+      display: flex;
+      align-items: center;
+      padding: 0 14mm;
+      gap: 18px;
+      flex-shrink: 0;
+    }
+
+    .page-header img {
+      height: 12mm;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .page-header .meta {
+      margin-left: auto;
+      font-size: 12px;
+      letter-spacing: 3px;
+      font-weight: 900;
+      color: var(--brand-brown);
+      white-space: nowrap;
+    }
+
+    .page-footer {
+      height: 8mm;
+      background: var(--brand-yellow);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 13mm;
+      font-size: 9px;
+      font-weight: 700;
+      color: var(--brand-brown);
+      letter-spacing: 1px;
+      flex-shrink: 0;
+    }
+
+    .page-footer .brand-mark {
+      font-size: 11px;
+      letter-spacing: 3px;
+    }
+
+    .placeholder-box {
+      border: 1.5px solid var(--brand-brown);
+      border-radius: 14px;
+      padding: 10mm;
+      min-height: 220mm;
+      color: var(--brand-brown);
+    }
+
+    @page {
+      size: A4 portrait;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="page cover-page">
+    <div class="cover-stack">
+      <img src="../logos/皇家小虎logo组合-主1.png" alt="皇家小虎" class="cover-logo">
+      <div class="cover-week">{{week_label}}</div>
+      <h1 class="cover-region">{{region_name}}</h1>
+      <div class="cover-title">{{report_title}}</div>
+      <div class="cover-line"></div>
+      <div class="cover-date num">{{date_range}}</div>
+      <div class="cover-pills">
+        <span class="cover-pill">{{province_a}}</span>
+        <span class="cover-pill">{{province_b}}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="page">
+    <div class="page-header">
+      <img src="../logos/皇家小虎logo组合-主0.png" alt="皇家小虎">
+      <span class="meta">第{{page_number}}页 · {{module_name}}</span>
+    </div>
+    <div class="page-inner">
+      <div class="placeholder-box">
+        {{page_body}}
+      </div>
+    </div>
+    <div class="page-footer">
+      <span class="brand-mark">皇家小虎 · 全球美食私厨</span>
+      <span>{{footer_context}} · 周报 · {{date_range}}</span>
+    </div>
+  </div>
+</body>
+</html>

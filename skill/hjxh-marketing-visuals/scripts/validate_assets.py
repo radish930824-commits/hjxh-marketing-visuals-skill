@@ -6,12 +6,13 @@ from collections import Counter
 from pathlib import Path
 
 
-EXPECTED_COUNTS = {"logo": 6, "ip": 6, "product": 6, "font": 9}
+EXPECTED_COUNTS = {"logo": 7, "ip": 6, "product": 6, "font": 9, "template": 2}
 ALLOWED_EXTENSIONS = {
     "logo": {".png"},
     "ip": {".png"},
     "product": {".png", ".jpg", ".jpeg"},
     "font": {".ttf", ".otf"},
+    "template": {".html"},
 }
 
 
