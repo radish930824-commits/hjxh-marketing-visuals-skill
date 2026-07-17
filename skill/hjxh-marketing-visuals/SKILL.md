@@ -22,6 +22,7 @@ description: Use when a request mentions 皇家小虎 or HJXH and involves creat
 - 制作营销图片成品
 - 制作 Canva 可编辑画布并导出图片
 - 制作 HTML/PDF 周报模板或成品
+- 制作数据PPT模版或完整横屏年中分析报告
 - 输出详细制作方案
 - 审核已有营销图片
 - 审核并修改已有营销图片
@@ -55,3 +56,4 @@ description: Use when a request mentions 皇家小虎 or HJXH and involves creat
 - 审核任务：结构化审核报告；高风险修改仅在确认后执行。
 - 审批改图任务：默认交付 Canva 可编辑画布、导出图片、审核/修改说明。
 - 周报任务：根据输出场景选择周报横屏版或周报竖屏版，交付脱敏模板或已填充 HTML/PDF 周报，并说明封面、页头、页尾是否符合固定排版逻辑。
+- 数据PPT任务：需要完整横屏年中/半年经营分析时，使用 `assets/templates/数据PPT模版.html`；必须填充当前数据，且不得保留任何样例报告的省区、客户、门店、人员、经营数值、日期或现场照片。

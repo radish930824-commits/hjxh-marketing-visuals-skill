@@ -208,5 +208,12 @@
         "source": "皇家小虎16比9宽屏周报模板.html（用户确认版）",
         "path": "assets/templates/周报横屏版.html",
         "purpose": "16:9横屏周报模板，固定1600×900、10页、字体与图片内嵌的单文件HTML"
+    },
+    {
+        "alias": "template-data-ppt-landscape",
+        "category": "template",
+        "source": "山西省区2026年1-6月年中分析报告-完整横屏版（已脱敏模板化）",
+        "path": "assets/templates/数据PPT模版.html",
+        "purpose": "16:9完整横屏数据PPT模板，固定1600×900、15页、单文件HTML；使用{{...}}占位符填充经营数据、对象、时间与现场照片"
     }
 ]
