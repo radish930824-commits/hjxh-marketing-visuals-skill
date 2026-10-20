@@ -215,5 +215,75 @@
         "source": "山西省区2026年1-6月年中分析报告-完整横屏版（已脱敏模板化）",
         "path": "assets/templates/数据PPT模版.html",
         "purpose": "16:9完整横屏数据PPT模板，固定1600×900、15页、单文件HTML；使用{{...}}占位符填充经营数据、对象、时间与现场照片"
+    },
+    {
+        "alias": "pet-pixel-tiger-canonical",
+        "category": "pet",
+        "source": "用户确认的像素小虎宠物衍生版本（2026-10-20）",
+        "path": "assets/pets/pixel-tiger/canonical.png",
+        "purpose": "用户确认的补齐下眼眶像素小虎站姿，作为身份参考"
+    },
+    {
+        "alias": "pet-pixel-tiger-spritesheet",
+        "category": "pet",
+        "source": "用户确认的像素小虎宠物衍生版本（2026-10-20）",
+        "path": "assets/pets/pixel-tiger/spritesheet.png",
+        "purpose": "透明v2宠物精灵图，1536×2288，九组动作与十六个视线方向"
+    },
+    {
+        "alias": "pet-pixel-tiger-animation",
+        "category": "pet",
+        "source": "用户确认的像素小虎宠物衍生版本（2026-10-20）",
+        "path": "assets/pets/pixel-tiger/all-states.gif",
+        "purpose": "九组标准动作循环预览"
+    },
+    {
+        "alias": "pet-pixel-tiger-video",
+        "category": "pet",
+        "source": "用户确认的像素小虎宠物衍生版本（2026-10-20）",
+        "path": "assets/pets/pixel-tiger/all-states.mp4",
+        "purpose": "九组动作MP4预览"
+    },
+    {
+        "alias": "pet-pixel-tiger-look-loop",
+        "category": "pet",
+        "source": "用户确认的像素小虎宠物衍生版本（2026-10-20）",
+        "path": "assets/pets/pixel-tiger/look-loop.gif",
+        "purpose": "十六个顺时针视线姿态循环"
+    },
+    {
+        "alias": "pet-pixel-tiger-jump-transition",
+        "category": "pet",
+        "source": "用户确认的像素小虎宠物衍生版本（2026-10-20）",
+        "path": "assets/pets/pixel-tiger/idle-jump-idle.gif",
+        "purpose": "待机到跳跃再回待机的过渡检查"
+    },
+    {
+        "alias": "pet-pixel-tiger-contact-sheet",
+        "category": "pet",
+        "source": "用户确认的像素小虎宠物衍生版本（2026-10-20）",
+        "path": "assets/pets/pixel-tiger/contact-sheet.png",
+        "purpose": "全部动画帧的带标签检查表"
+    },
+    {
+        "alias": "pet-pixel-tiger-direction-sheet",
+        "category": "pet",
+        "source": "用户确认的像素小虎宠物衍生版本（2026-10-20）",
+        "path": "assets/pets/pixel-tiger/direction-qa.png",
+        "purpose": "中立姿态与十六方向标注检查表"
+    },
+    {
+        "alias": "pet-pixel-tiger-stills",
+        "category": "pet",
+        "source": "用户确认的像素小虎宠物衍生版本（2026-10-20）",
+        "path": "assets/pets/pixel-tiger/qa-stills.png",
+        "purpose": "九组动作带时间戳静帧"
+    },
+    {
+        "alias": "pet-pixel-tiger-metadata",
+        "category": "pet",
+        "source": "用户确认的像素小虎宠物衍生版本（2026-10-20）",
+        "path": "assets/pets/pixel-tiger/metadata.json",
+        "purpose": "帧布局、验证摘要、文件哈希与已知限制"
     }
 ]

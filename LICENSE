@@ -16,6 +16,11 @@ This license does not apply to files under
 `skill/hjxh-marketing-visuals/assets/`; those files are governed by
 `ASSET-LICENSE.md`.
 
+This license also does not apply to the imported `skill/apple-design/`
+snapshot. Its original source and rights statements are preserved in
+`skill/apple-design/README.md`; Apple's guideline text remains attributed
+to Apple Inc. No additional license grant is asserted for that snapshot.
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE

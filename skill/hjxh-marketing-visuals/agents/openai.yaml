@@ -1,5 +1,5 @@
 interface:
   display_name: "皇家小虎营销视觉"
-  short_description: "为皇家小虎创建、规划、审核并安全修改海报与社交媒体营销视觉"
+  short_description: "制作与审核皇家小虎品牌视觉，复用像素小虎宠物及界面设计参考"
   default_prompt: "使用 $hjxh-marketing-visuals 为皇家小虎制作或审核营销图片，并严格执行品牌视觉规范。"
   brand_color: "#FFCC00"

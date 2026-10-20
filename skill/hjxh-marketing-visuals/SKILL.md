@@ -1,6 +1,6 @@
 ---
 name: hjxh-marketing-visuals
-description: Use when a request mentions 皇家小虎 or HJXH and involves creating, planning, auditing, revising, approving, or converting posters, social-media graphics, ecommerce promotional images, campaign graphics, Canva editable canvases, HTML/PDF weekly reports, or other marketing visuals.
+description: Use when a request mentions 皇家小虎 or HJXH and involves creating, planning, auditing, revising, approving, or converting marketing visuals, Canva canvases, HTML/PDF reports, branded interfaces, or reusing the approved pixel Tiger pet assets.
 ---
 
 # 皇家小虎营销视觉
@@ -16,6 +16,8 @@ description: Use when a request mentions 皇家小虎 or HJXH and involves creat
 5. 涉及 Canva 可编辑画布、审批改图、按批准修改、导出图片时，读取 `references/canva-approval-workflow.md`。
 6. 渠道或尺寸缺失时，读取 `references/channel-sizes.md`，推荐 1-3 个尺寸并确认。
 7. 从 `assets/manifest.json` 选择素材，不得静默替换缺失资产。
+8. 使用像素小虎、动画宠物或精灵图时，读取 `references/pixel-pet.md`，优先复用已确认素材。
+9. 涉及品牌 App、桌面界面或交互原型的设计审核时，读取 `references/apple-design-integration.md`；按场景选用同仓库的 `apple-design`，普通海报和宠物位图不套用平台控件规则。
 
 ## 任务分类
 
@@ -27,6 +29,8 @@ description: Use when a request mentions 皇家小虎 or HJXH and involves creat
 - 审核已有营销图片
 - 审核并修改已有营销图片
 - 按严格审批流程修改营销图片
+- 复用已确认的像素小虎形象与动画宠物素材
+- 皇家小虎品牌界面的视觉与可访问性审核
 
 ## 硬性边界
 
@@ -39,6 +43,7 @@ description: Use when a request mentions 皇家小虎 or HJXH and involves creat
 - 任一 MUST 或 MUST NOT 违规，审核结论必须为“不通过”。
 - Logo、品牌色、字体、IP 身份或新动作、产品事实、促销价格与条款的修改必须先获得用户确认。
 - 产品或标准 IP 素材不足时，先报告限制；经确认后才可使用占位方案或制作明确标记的“待审核草案”。
+- 已确认的像素宠物是限定用途的 IP 衍生资产，适用范围与已知色阶限制见 `references/pixel-pet.md`；不得将其视为对其他 Logo、品牌色、字体或 3D 标准 IP 规则的全面修改。
 
 ## 工具路由
 
@@ -47,6 +52,7 @@ description: Use when a request mentions 皇家小虎 or HJXH and involves creat
 - 同时需要创意场景和准确品牌排版：组合使用 ImageGen 与 Canva。
 - ImageGen 绝不能用于生成或仿制 Logo。
 - 审批改图默认使用 Canva 承载可编辑画布，Codex 管理审核、批准项和修改说明。
+- 已有像素宠物优先直接取用打包 PNG/GIF/MP4；创建、更新或启用 ChatGPT 宠物时使用可用的 Pets 工具及对应宠物技能，保留验证和激活权限边界。
 
 ## 交付
 

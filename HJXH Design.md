@@ -287,6 +287,10 @@ AI 在输出前 MUST 检查：
 
 ## 10. Machine-Readable Tokens
 
+像素宠物补充资产位于 `skill/hjxh-marketing-visuals/assets/pets/pixel-tiger/`，详见该 Skill 的 `references/pixel-pet.md`；这是用户于2026-10-20确认的衍生版本，保留完整下眼眶、皇冠、王字纹和大头小身体比例，不替代原3D规范或其他营销内容的严格四色规则。
+
+品牌界面审核可联合使用 `skill/apple-design/` 中的完整 Apple Design 技能；适用范围与品牌冲突处理见 `skill/hjxh-marketing-visuals/references/apple-design-integration.md`。
+
 ```yaml
 brand:
   id: HJXH
@@ -322,6 +326,11 @@ logo_assets:
 
 ip_assets:
   specification: "皇家小虎IP规范/皇家小虎IP介绍.png"
+  pixel_pet:
+    canonical: "skill/hjxh-marketing-visuals/assets/pets/pixel-tiger/canonical.png"
+    spritesheet: "skill/hjxh-marketing-visuals/assets/pets/pixel-tiger/spritesheet.png"
+    preview: "skill/hjxh-marketing-visuals/assets/pets/pixel-tiger/all-states.gif"
+    metadata: "skill/hjxh-marketing-visuals/assets/pets/pixel-tiger/metadata.json"
   actions:
     clap: "皇家小虎IP规范/动作 (1).png"
     thumbs_up: "皇家小虎IP规范/动作 (2).png"

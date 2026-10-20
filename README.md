@@ -15,6 +15,8 @@
 | `皇家小虎品牌标准字体/` | 华康圆体与 Gotham Rounded 字体 | 按规范中的文字层级调用 |
 | `皇家小虎IP规范/` | IP 说明规范及 5 个标准动作素材 | 保持角色结构、比例、颜色与气质 |
 | `皇家小虎主产品摄影图/` | 披萨、烤肠、蛋挞、芝士焗、薯条、手抓饼产品图 | 保持产品真实性，不得虚构或误导 |
+| `skill/hjxh-marketing-visuals/assets/pets/pixel-tiger/` | 已确认的像素小虎、完整精灵图、GIF/MP4预览与验证摘要 | 按像素衍生用途复用，保持已确认形象 |
+| `skill/apple-design/` | 独立 Apple Design 技能、122个HIG页面与Liquid Glass指南 | 用于适用平台的UI/UX审核，保留原始来源与权利说明 |
 
 ## 如何使用
 
@@ -123,4 +125,24 @@ C:\Users\<用户名>\.codex\skills\hjxh-marketing-visuals
 使用 $hjxh-marketing-visuals 为皇家小虎制作一张披萨朋友圈宣传图。
 ```
 
-Skill 指令、流程与脚本使用仓库根目录的 `LICENSE`；品牌 Logo、IP、产品图片与字体使用 `ASSET-LICENSE.md`。
+皇家小虎 Skill 的指令、流程与脚本使用仓库根目录的 `LICENSE`；品牌 Logo、IP、宠物、产品图片与字体使用 `ASSET-LICENSE.md`。导入的 Apple Design 快照不纳入本仓库的 MIT 授权，来源与权利说明见其原始 [README](skill/apple-design/README.md#origin-and-license)。
+
+## 像素小虎宠物
+
+2026-10-20 确认的像素小虎版本已收录，保留补齐后的下眼眶。包含九组动作、十六个视线方向和透明 v2 精灵图；技术预检、质量检查及独立方向盲评均通过。
+
+![小虎动作预览](skill/hjxh-marketing-visuals/assets/pets/pixel-tiger/all-states.gif)
+
+- [定稿站姿](skill/hjxh-marketing-visuals/assets/pets/pixel-tiger/canonical.png)
+- [完整精灵图](skill/hjxh-marketing-visuals/assets/pets/pixel-tiger/spritesheet.png)
+- [动画视频](skill/hjxh-marketing-visuals/assets/pets/pixel-tiger/all-states.mp4)
+- [视线预览](skill/hjxh-marketing-visuals/assets/pets/pixel-tiger/look-loop.gif)
+- [使用边界与验证说明](skill/hjxh-marketing-visuals/references/pixel-pet.md)
+
+这是用户确认的像素衍生资产，包含细微色阶；不替代原3D标准IP，也不代表其他营销物料的严格四色规范被放宽。
+
+## Apple Design 技能
+
+本仓库同时保留可独立安装的 [apple-design](skill/apple-design/SKILL.md)。将 `skill/apple-design/` 复制到个人 Skill 目录下的 `apple-design/` 即可使用；其HIG快照、主题索引、刷新脚本和来源说明完整保留。本次导入未重新抓取或改写 Apple 原文。
+
+皇家小虎界面任务按[联合使用说明](skill/hjxh-marketing-visuals/references/apple-design-integration.md)引用。Apple 规范补充可访问性、布局、导航和交互检查；皇家小虎的 Logo、颜色、字体、IP 与产品真实性仍由品牌规范管理。
