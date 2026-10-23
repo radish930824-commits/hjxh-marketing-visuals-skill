@@ -49,11 +49,46 @@
         "purpose": "周报横屏版封面左下完整横版Logo，包含皇家小虎、ROYAL TIGER与全球美食私厨"
     },
     {
-        "alias": "ip-specification",
+        "alias": "ip-view-01",
         "category": "ip",
-        "source": "皇家小虎IP规范/皇家小虎IP介绍.png",
-        "path": "assets/ip/皇家小虎IP介绍.png",
-        "purpose": "IP 建模、形象审核、衍生设计首要参考"
+        "source": "新版小虎IP动态/六视图/20260319 小虎_v2_6视图-01.png",
+        "path": "assets/ip/20260319 小虎_v2_6视图-01.png",
+        "purpose": "新版小虎六视图 01，IP 建模、形象审核、衍生设计参考"
+    },
+    {
+        "alias": "ip-view-02",
+        "category": "ip",
+        "source": "新版小虎IP动态/六视图/20260319 小虎_v2_6视图-02.png",
+        "path": "assets/ip/20260319 小虎_v2_6视图-02.png",
+        "purpose": "新版小虎六视图 02，IP 建模、形象审核、衍生设计参考"
+    },
+    {
+        "alias": "ip-view-03",
+        "category": "ip",
+        "source": "新版小虎IP动态/六视图/20260319 小虎_v2_6视图-03.png",
+        "path": "assets/ip/20260319 小虎_v2_6视图-03.png",
+        "purpose": "新版小虎六视图 03，IP 建模、形象审核、衍生设计参考"
+    },
+    {
+        "alias": "ip-view-04",
+        "category": "ip",
+        "source": "新版小虎IP动态/六视图/20260319 小虎_v2_6视图-04.png",
+        "path": "assets/ip/20260319 小虎_v2_6视图-04.png",
+        "purpose": "新版小虎六视图 04，IP 建模、形象审核、衍生设计参考"
+    },
+    {
+        "alias": "ip-view-05",
+        "category": "ip",
+        "source": "新版小虎IP动态/六视图/20260319 小虎_v2_6视图-05.png",
+        "path": "assets/ip/20260319 小虎_v2_6视图-05.png",
+        "purpose": "新版小虎六视图 05，IP 建模、形象审核、衍生设计参考"
+    },
+    {
+        "alias": "ip-view-06",
+        "category": "ip",
+        "source": "新版小虎IP动态/六视图/20260319 小虎_v2_6视图-06.png",
+        "path": "assets/ip/20260319 小虎_v2_6视图-06.png",
+        "purpose": "新版小虎六视图 06，IP 建模、形象审核、衍生设计参考"
     },
     {
         "alias": "ip-action-clap",

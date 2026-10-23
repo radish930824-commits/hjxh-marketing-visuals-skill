@@ -52,7 +52,7 @@ MUST 强制按文字类型用字体：中文必须使用华康圆体系列资产
 
 ## IP
 
-- 结构参考：`ip-specification`
+- 结构参考：`ip-view-01` 至 `ip-view-06`（新版六视图）
 - 欢迎、庆祝：`ip-action-clap`
 - 推荐、认可、品质背书：`ip-action-thumbs-up`
 - 自信站立、鼓励、品牌宣言：`ip-action-confident`
