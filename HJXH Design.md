@@ -141,7 +141,7 @@
 | 中文重点正文 | 华康圆体 W7 | `皇家小虎品牌标准字体/42华康圆体W7.TTF` |
 | 中文普通正文 | 华康圆体 W5 | `皇家小虎品牌标准字体/41华康圆体W5.TTF` |
 | 中文轻量辅助文字 | 华康圆体 W3 | `皇家小虎品牌标准字体/40华康圆体W3.TTF` |
-| 中文超重强调标题 | 华康圆体 W12 | `皇家小虎品牌标准字体/45华康圆体W12.TTF` |
+| 中文强调标题 | 华康圆体 W9 | `皇家小虎品牌标准字体/44华康圆体W9.TTF` |
 
 ### 5.2 英文字体映射
 
@@ -159,7 +159,7 @@
 - MUST NOT 在同一页面中无目的地混用多个中文字族。
 - SHOULD 使用小虎咖作为品牌标题和主要正文颜色。
 - 中文正文 SHOULD 使用 W5；重点信息 SHOULD 使用 W7。
-- 中文主标题 SHOULD 使用 W9；仅极强强调时 MAY 使用 W12。
+- 中文主标题 SHOULD 使用 W9；中文字体最粗 MUST 仅使用 W9，不得使用更粗字重。
 - 英文文字 MUST 使用 Gotham Rounded 字族。
 
 ## 6. 默认文字层级
@@ -353,7 +353,7 @@ fonts:
     body_emphasis: "皇家小虎品牌标准字体/42华康圆体W7.TTF"
     body: "皇家小虎品牌标准字体/41华康圆体W5.TTF"
     auxiliary: "皇家小虎品牌标准字体/40华康圆体W3.TTF"
-    display_heavy: "皇家小虎品牌标准字体/45华康圆体W12.TTF"
+    display_heavy: "皇家小虎品牌标准字体/44华康圆体W9.TTF"
   en:
     heading_primary: "皇家小虎品牌标准字体/GOTHAMRND-BOLD.OTF"
     heading_secondary: "皇家小虎品牌标准字体/GOTHAMRND-MEDIUM.OTF"
